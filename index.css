@@ -1,5 +1,4 @@
-@media screen{
-  body {
+body {
   margin: 0;
   font-family: Verdana, sans-serif;
   background-color: #F4EEFF;
@@ -60,5 +59,4 @@ h1 {
   flex-wrap: nowrap;
   padding:20px;
   margin-top:40px;
-}
 }
