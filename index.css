@@ -1,7 +1,17 @@
-body {
+@media screen{
+  body {
   margin: 0;
   font-family: Verdana, sans-serif;
   background-color: #F4EEFF;
+}
+
+.topbar{
+  background-color: #424874;
+  position: fixed;
+  top: 0;
+  height: 8%;
+  width:100%;
+  box-shadow: 0px 2px 5px #AAA6B3;
 }
 
 ul{
@@ -9,11 +19,6 @@ ul{
   margin: auto;
   padding: 0;
   overflow: hidden;
-  background-color: #424874;
-  position: fixed;
-  top: 0;
-  width:100%;
-  box-shadow: 0px 2px 5px #AAA6B3;
 }
 
 li{
@@ -43,10 +48,11 @@ h1 {
   color: #292D48;
 }
 
-icon{
+.icon{
+  display: block;
   width: 20px;
-  height: 20px;
-  margin-right: 18px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro{
@@ -54,4 +60,5 @@ icon{
   flex-wrap: nowrap;
   padding:20px;
   margin-top:40px;
+}
 }
